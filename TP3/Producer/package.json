@@ -1,0 +1,20 @@
+{
+  "name": "prod-red-panda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "../Producer/src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ../Producer/src/server.js",
+    "dev": "node --watch ../Producer/src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "kafkajs": "^2.2.4",
+    "lorem-ipsum": "^2.0.8",
+    "uuid": "^9.0.0"
+  }
+}
